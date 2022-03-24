@@ -1,0 +1,30 @@
+page_type: "multiple_text_question"
+title: q221
+content: |
+
+    ### Q2.2(1) 次の数式の[ア],[イ]に入る適切な整数値を答えよ(半角で入力)
+    $\Large\lim_{n\to\infty}\sum_{k=1}^{n}(\frac{4k^2}{n^3}-\frac{3k}{n^2}+\frac{2}{n}) = \frac{[ア]}{([イ])}$
+            
+answer_column: |
+
+    [ア]:  [[blank_1]] [イ]: [[blank_2]]
+
+correct_answers:
+-            
+    blank_id: blank_1
+    answers:
+    - 
+      type: str
+      value: "11"
+    - 
+      type: int
+      value: 11
+-
+    blank_id: blank_2
+    answers:
+    - 
+      type: str
+      value: "6"
+    - 
+      type: int
+      value: 6

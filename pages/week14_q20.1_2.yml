@@ -1,0 +1,44 @@
+page_type: "multiple_text_question"
+title: q2012
+
+content: |
+
+    ### Q20.1(2) 次の数式の[イ]〜[エ]に⼊る適切な整数値を答えよ．(半角で入力)
+
+    $
+    \iint_D{ }^{ }
+    e^{x+y}dxdy, (D：x\geq 0, y \geq 0, x+y \leq 3)\\
+    =[イ]\times e^{[ウ]} + [エ]
+
+
+answer_column: |
+
+    [イ]: [[blank_1]] [ウ]: [[blank_2]] [エ]: [[blank_3]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "2"
+    -
+      type: int
+      value: 2
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "3"
+    -
+      type: int
+      value: 3
+-
+    blank_id: blank_3
+    answers:
+    -
+      type: str
+      value: "1"
+    -
+      type: int
+      value: 1

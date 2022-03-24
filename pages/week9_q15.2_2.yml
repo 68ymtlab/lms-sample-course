@@ -1,0 +1,33 @@
+page_type: "multiple_text_question"
+title: q1522
+
+content: |
+
+    ### Q15.2(2) 次の数式の[イ],[ウ]に⼊る適切な整数値を答えよ．ただし，Cは任意定数とする．また，分数は分母が正の既約分数(これ以上約分できない分数)とする.(半角で入力)
+
+    $ x = \sqrt {2}t^2,  , y = 2t - \frac{t^3}{3} (0 \leq t \leq 2 ) \Longrightarrow  L = \frac{[イ]}{[ウ]} 
+
+   
+
+answer_column: |
+
+    [イ]: [[blank_1]] [ウ]: [[blank_2]]
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "20"
+    -
+      type: int
+      value: 20
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "3"
+    -
+      type: int
+      value: 3

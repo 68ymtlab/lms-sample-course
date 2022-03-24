@@ -1,0 +1,16 @@
+page_type: "single_text_question"
+title: q311
+
+content: |
+
+    ### Q3.1(1) 次の積分を計算せよ．(半角で入力)
+
+    $\Large\int_{0}^{2} (4x^{3}-3)dx=[ア]$
+
+correct_answer:
+- 
+  type: int
+  value: 10
+-
+  type: str
+  value: "10"

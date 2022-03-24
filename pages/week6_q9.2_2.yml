@@ -1,0 +1,35 @@
+page_type: "multiple_text_question"
+title: q922
+
+content: |
+
+    ### Q9.2(2) 次の数式の[エ], [オ]に⼊る適切な整数値を答えよ．ただし，Cは任意定数とする．(半角で入力)
+
+    微分方程式：$ \frac{dy}{dx} = 3x^2y \Longrightarrow  一般解：  y= Ce^{[エ]} \\
+    初期条件： y(0) = 3 \Longrightarrow  特殊解：  y= [オ]\times e^{[エ]}$
+
+
+
+answer_column: |
+
+    [エ]: [[blank_1]] [オ]: [[blank_2]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "3"
+    -
+      type: int
+      value: 3
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "3"
+    -
+      type: int
+      value: 3
+

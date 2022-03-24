@@ -1,0 +1,66 @@
+page_type: "multiple_text_question"
+title: q1611
+
+content: |
+
+    ###Q16.1(1)
+    $粗い水平な床の上に置いてある物体に，大きさ 120 N の力\mathbb{F}_1(\mathbb r) を水平面から 30^{\circ}斜め上向きの方向へ作用させ，床の上を水平方向に(床から浮かないように)4.0 m 移動させた. \\
+    このとき, [ア]~[オ]に⼊る適切な実数値を答えよ(0 である場合は 0 と答え，そうでない場合は有効数字 2 桁で答えること)．\\
+    物体の質量を 10.0 kg，物体と床との間の動摩擦係数を 0.20，重力加速度の大きさを 9.8 m/s^2 とする.(半角で入力)\\
+    \\
+    作用させた力 \mathbb{F}_1(\mathbb r) が物体にした仕事:W_1 = [ア] \times 102 J , 重力 \mathbb{F}_2(\mathbb r) が物体にした仕事:W_2 = [イ] J \\
+    垂直抗力 \mathbb{F}_3(\mathbb r) が物体にした仕事:W_3 = [ウ] J , 動摩擦力 \mathbb{F}_4(r) が物体にした仕事:W_4 = [エ] J , \\
+    物体になされた全仕事:W = W_1 +W_2 +W_3 +W_4 = [オ]×102 J $
+
+
+answer_column: |
+
+    [ア]: [[blank_1]] [イ]: [[blank_2]] [ウ]: [[blank_3]] [エ]: [[blank_4]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "4.2"
+    -
+      type: int
+      value: 4.2
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "0"
+    -
+      type: float
+      value: 0
+-
+    blank_id: blank_3
+    answers:
+    - 
+      type: str
+      value: "0"
+    -
+      type: float
+      value: 0
+-
+    blank_id: blank_4
+    answers:
+    -
+      type: str
+      value: "-30"
+    -
+      type: float
+      value: -30
+-
+    blank_id: blank_4
+    answers:
+    - 
+      type: str
+      value: "3.9"
+    -
+      type: float
+      value: 3.9
+
+

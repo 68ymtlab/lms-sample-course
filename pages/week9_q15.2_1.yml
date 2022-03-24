@@ -1,0 +1,18 @@
+page_type: "single_text_question"
+title: q1521
+
+content: |
+
+    ### Q15.2(1) 次の数式の[ア]に⼊る適切な整数値を答えよ．ただし，Cは任意定数とする．また，分数は分母が正の既約分数(これ以上約分できない分数)とする.(半角で入力)
+
+    $ x = (1+cos\theta )cos\theta , y=(1+cos\theta )sin\theta (0 \leq \theta \leq \pi ) \Longrightarrow  L = [ア]  
+
+   
+correct_answer:
+        
+-
+  type: int
+  value: 4 
+-
+  type: str
+  value: 4 

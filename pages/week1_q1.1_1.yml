@@ -1,0 +1,14 @@
+page_type: "single_text_question"
+title: q111
+content: |
+
+    ### Q1.1(1) 次の和を求めよ(半角で入力)
+
+    $\Large\sum_{k=1}^{14}(2k+1) = [ア]$
+
+correct_answer:
+        
+- type: int
+  value: 224 
+- type: str
+  value: 224

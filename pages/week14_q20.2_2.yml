@@ -1,0 +1,36 @@
+page_type: "multiple_text_question"
+title: q2022
+
+content: |
+
+    ### Q20.2(2) 次の数式の[ウ],[エ]に⼊る適切な整数値を答えよ．分数は分母が正の既約分数(これ以上約分できない分数)とする.(半角で入力)
+
+    $
+    \iint_D{ }^{ }
+    xy^3 dxdy, (D：x\leq 0, y \geq x, x^2+y^2 \leq 1)\\
+    = \frac{[ウ]}{[エ]}
+
+
+answer_column: |
+
+    [ウ]: [[blank_1]] [エ]: [[blank_2]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "-1"
+    -
+      type: int
+      value: -1
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "32"
+    -
+      type: int
+      value: 32
+

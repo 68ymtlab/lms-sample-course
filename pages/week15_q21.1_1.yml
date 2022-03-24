@@ -1,0 +1,35 @@
+page_type: "multiple_text_question"
+title: q2111
+
+content: |
+
+    ### $Q21.1 領域D:y\leq x\leq \sqrt y, 0\leq y\leq 1とその上の2変数関数(高さ)z=f(x,y)=x^2yで物体の形状が表現されている. \\
+    ### この物体の体積 V ，重心の x 座標 x_G，重心の y 座標 y_G を求めたい.ただし，物体の密度は一様であると仮定する$
+
+    $(1) 次の数式の[ア],[イ]に⼊る適切な整数値を答えよ．分数は分母が正の既約分数(これ以上約分できない分数)とする.(半角で入力)
+    物体の体積V = \frac{[ア]}{[イ]}
+
+
+answer_column: |
+
+    [ア]: [[blank_1]] [イ]: [[blank_2]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "1"
+    -
+      type: int
+      value: 1
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "35"
+    -
+      type: int
+      value: 35
+

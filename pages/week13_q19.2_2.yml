@@ -1,0 +1,35 @@
+page_type: "multiple_text_question"
+title: q1922
+
+content: |
+
+    ### $ Q19.2 直線x=0，x=3，y=0と曲線y=12-x^2 とで囲まれた領域の面積S，重心のx座標x_G，重心のy座標y_G を 求める.ただし，密度は一様とする.$
+
+
+    $(2) 以下の [エ]，[オ] に入る適切な整数値を答えよ.また，分数は分母が正の既約分数(これ以上約分できない分数)とする.(半角で入力) \\
+    重心のy座標 y_G = \frac{[エ]}{[オ]}
+
+answer_column: |
+
+    [エ]: [[blank_1]] [オ]: [[blank_2]]
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "49"
+    -
+      type: int
+      value: 49
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "10"
+    -
+      type: int
+      value: 10
+
+

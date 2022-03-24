@@ -1,0 +1,34 @@
+page_type: "multiple_text_question"
+title: q511
+
+content: |
+
+    ### Q5.1(1) 次の数式の[ア], [イ]に⼊る適切な整数値を答えよ．ただし，Cは積分定数とする．(半角で入力)
+
+    $
+\int_{ }^{ }
+xsin3xdx=\frac{[ア]}{3}\times xcos3x+\frac{[イ]}{9}+C
+
+
+answer_column: |
+
+    [ア]: [[blank_1]] [イ]: [[blank_2]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "-1"
+    - 
+      type: int
+      value: -1
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "1"
+    -
+      type: int
+      value: 1

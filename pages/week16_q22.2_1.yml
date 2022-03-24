@@ -1,0 +1,43 @@
+page_type: "multiple_text_question"
+title: q2221
+
+content: |
+
+    ### $Q22.2(1) 曲線 y = 8 - x^2 と直線 y = 0 で囲まれている領域 D を y 軸のまわりに回転してできる回転体について，\\
+    ### 以下の [エ]~[カ] に入る適切な整数値を答えよ.ただし，回転体の密度は一様とし，分数は分母が正の既約分数(これ以上約分できない分数)とする.
+
+    $
+    回転体の体積V = [エ]\times \pi , 回転体の重心のy座標y_G = \frac{[オ]}{[カ]}
+
+
+answer_column: |
+
+    [エ]: [[blank_1]] [オ]: [[blank_2]] [カ]: [[blank_3]]
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "32"
+    -
+      type: int
+      value: 32
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "8"
+    -
+      type: int
+      value: 8
+-
+    blank_id: blank_3
+    answers:
+    -
+      type: str
+      value: "3"
+    -
+      type: int
+      value: 3

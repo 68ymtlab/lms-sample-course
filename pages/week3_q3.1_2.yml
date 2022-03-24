@@ -1,0 +1,43 @@
+page_type: "multiple_text_question"
+title: q312
+
+content: |
+
+    ### Q3.1(2) 次の数式の[イ]〜[エ]に⼊る適切な整数値を答えよ．ただし，Cは積分定数とする．(半角で入力)
+
+    $
+\int_{ }^{ }
+\frac{x^{5}-2x^{2}+3x}{x^{3}}dx=\frac{1}{[イ]}\times x^{3}+[ウ]\times ln|x|+\frac{[エ]}{x}+C
+
+
+answer_column: |
+
+    [イ]: [[blank_1]] [ウ]: [[blank_2]] [エ]: [[blank_3]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "3"
+    -
+     type: int
+     value: 3
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "-2"
+    -
+      type: int
+      value: -2
+-
+    blank_id: blank_3
+    answers:
+    -
+      type: str
+      value: "-3"
+    -
+      type: int
+      value: -3

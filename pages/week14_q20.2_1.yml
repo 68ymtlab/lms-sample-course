@@ -1,0 +1,36 @@
+page_type: "multiple_text_question"
+title: q2021
+
+content: |
+
+    ### Q20.2(1) 次の数式の[ア],[イ]に⼊る適切な整数値を答えよ．(半角で入力)
+
+    $
+    \iint_D{ }^{ }
+    xydxdy, (D：x\geq 0, y \geq 0, 1\leq x^2+y^2 \leq 4)\\
+    = \frac{[ア]}{[イ]}
+
+
+answer_column: |
+
+    [ア]: [[blank_1]] [イ]: [[blank_2]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "15"
+    -
+      type: int
+      value: 15
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "8"
+    -
+      type: int
+      value: 8
+

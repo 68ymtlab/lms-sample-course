@@ -1,0 +1,42 @@
+page_type: "multiple_text_question"
+title: q1021
+
+content: |
+
+    ### Q10.2(1) 次の数式の[ア]~[ウ]に⼊る適切な整数値を答えよ．ただし，Cは任意定数とする．また，分数は分母が正の既約分数(これ以上約分できない分数)とする.(半角で入力)
+
+    微分方程式：$ \frac{dy}{dx} - 4y = e^x \Longrightarrow  一般解：  y= -\farac{1}{[ア]}\times e^x +Ce^{4x} \\
+    初期条件： y(0) = 5 \Longrightarrow  特殊解：  y= -\frac{1}{[ア]}\times e^x + \frac{[イ]}{[ウ]} \times e^{4x}$
+
+
+
+answer_column: |
+
+    [ア]: [[blank_1]] [イ]: [[blank_2]] [ウ]: [[blank_3]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "3"
+    - 
+      type: int
+      value: 3
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "16"
+        - type: int
+          value: 16
+    blank_id: blank_3
+    answers:
+    -
+      type: str
+      value: "3"
+    -
+      type: int
+      value: 3
+

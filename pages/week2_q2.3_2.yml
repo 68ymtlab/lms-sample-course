@@ -1,0 +1,60 @@
+page_type: "multiple_text_question"
+title: q232
+
+content: |
+
+    ### Q2.3(2) 
+    $f(x) = 3x - 2$，直線 x = 0，x = 1 の場合について，次の数式の [オ]～[ケ] に入る適切な整数値を半角で答えよ．分数は分母が正の既約分数（これ以上約分できない分数）とする．
+    求める面積は次の右リーマン和の極限として求められる．
+    $\Large\lim_{n\to\infty}\sum_{k=1}^{n}f(c_i)\Delta x =\\
+    \lim_{n\to\infty}\sum_{k=1}^{n}\Biggl[\biggl(3\times  \Bigl([オ] + \frac{[カ]}{n}\times  i\Bigr) -2\biggr)\times  \frac{[キ]}{n}\Biggr] = \frac{[ク]}{[ケ]}$        
+answer_column: |
+
+    [オ][[blank_1]] [カ][[blank_2]] [キ][[blank_3]] [ク][[blank_4]] [ケ][[blank_5]]
+
+correct_answers:
+-  
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "1"
+    -
+      type: int
+      value: 1
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "3"
+    -
+      type: int
+      value: 3
+-
+    blank_id: blank_3
+    answers:
+    -
+      type: str
+      value: "3"
+    -
+      type: int
+      value: 3
+-
+    blank_id: blank_4
+    answers:
+    -
+      type: str
+      value: "33"
+    -
+      type: int
+      value: 33    
+- 
+    blank_id: blank_5
+    answers:
+    -
+      type: str
+      value: "2"
+    -
+      type: int
+      value: 2

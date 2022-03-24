@@ -1,0 +1,42 @@
+page_type: "multiple_text_question"
+title: q1111
+
+content: |
+
+    ### Q11.1(1) 次の数式の[ア]~[ウ]に⼊る適切な整数値を答えよ(0 や 1 の場合も省略しないこと)．ただし，$c_1,c_2$は任意定数とする．(半角で入力)
+
+    微分方程式：$ \frac{d^2y}{dx^2} 6\frac{dy}{dx} + 9y = 0 \Longrightarrow $ 特性方程式： $ \lambda ^2 + [ア] \times \lambda + [イ] = 0 \Longrightarrow$ 一般解：$y = (c_1 + c_2 x)e^{[ウ]\times x}$
+   
+
+
+answer_column: |
+
+    [ア]: [[blank_1]] [イ]: [[blank_2]] [ウ]: [[blank_3]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "6"
+    -
+      type: int
+      value: 6
+    blank_id: blank_2
+    answers:
+-
+      type: str
+      value: "9"
+    -
+      type: int
+      value: 9
+-
+    blank_id: blank_3
+    answers:
+    -
+      type: str
+      value: "-3"
+    -
+      type: int
+      value: -3
+

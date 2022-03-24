@@ -1,0 +1,52 @@
+page_type: "multiple_text_question"
+title: q1112
+
+content: |
+
+    ### Q11.1(2) 次の数式の[エ]~[キ]に⼊る適切な整数値を答えよ(0 や 1 の場合も省略しないこと)．ただし，$c_1,c_2$は任意定数とする．(半角で入力)
+
+    微分方程式：$\begin{align} \frac{d^2y}{dx^2} + 6y = 0 &\Longrightarrow  特性方程式：  \lambda ^2 + [エ] \times \lambda + [オ] = 0 \\ 
+                                                        &\Longrightarrow 一般解：y = e^{[カ]\times x}\times \biggl((c_1 cos(\sqrt{[キ]}\times x) + c_2 sin(\sqrt{[キ]}\times x)e^{[ウ]\times x}\biggr)\end{align}$
+   
+
+
+answer_column: |
+
+    [エ]: [[blank_1]] [オ]: [[blank_2]] [カ]: [[blank_3]] [キ]: [[blank_4]]
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "0"
+    -
+      type: int
+      value: 0
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "6"
+    -
+      type: int
+      value: 6
+-
+    blank_id: blank_3
+    answers:
+    -
+      type: str
+      value: "0"
+    -
+      type: int
+      value: 0
+-
+    blank_id: blank_4
+    answers:
+    -
+      type: str
+      value: "6"
+    -
+      type: int
+      value: 6

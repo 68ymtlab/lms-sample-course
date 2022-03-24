@@ -1,0 +1,37 @@
+page_type: "multiple_text_question"
+title: q1711
+
+content: |
+
+    ###Q17.1(1)
+    $滑らかな水平面上で壁にばねの一端を固定し，他端に質量 2.0 kg の小球をつなぐ.自然長の位置を原点 O として，\\
+     ばねの伸びる向きに x 軸をとる.ばねを自然長から水平方向に 0.30 m だけ伸ばしたとき，以下の [ア],[イ] に入る\\
+     適切な実数値を答えよ(有効数字 2 桁で答えること).ただし，ばね定数を，2.0 N/m とする.(半角で入力)\\
+    \\
+    ばねの弾性力が物体にした仕事:W = [ア] \times 10^{-2} J \\
+    ばねの弾性力によるポテンシャルエネルギー:U(0.30)=[イ]\times 10^{-2} J $
+
+
+answer_column: |
+
+    [ア]: [[blank_1]] [イ]: [[blank_2]]
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "-9.0"
+    -
+      type: float
+      value: -9.0
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "9.0"
+    - 
+      type: float
+      value: 9.0
+   

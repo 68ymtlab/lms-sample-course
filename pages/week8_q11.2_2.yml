@@ -1,0 +1,51 @@
+page_type: "multiple_text_question"
+title: q1122
+
+content: |
+
+    ### Q11.2(1) 次の数式の[オ]~[ク]に⼊る適切な整数値を答えよ(0 や 1 の場合も省略しないこと)．ただし，$c_1,c_2$は任意定数とする．(半角で入力)
+
+    微分方程式：$ \frac{d^2y}{dx^2} -2\frac{dy}{dx} + 5y = 0 \Longrightarrow  一般解：  y= e^{[オ]\times } \times {c_1 cos([カ]\times x) +c_2sin([カ]\times x)} \\
+    初期条件： y(\pi) = 1, y'(\pi) = 4 \Longrightarrow  特殊解：  y= e^{[オ]\times x + ([キ])\times \pi} \times \biggl( cos([カ]\times x) + \frac{[ク]}{2} \times sin([カ] \times x)\biggr) $
+
+
+
+answer_column: |
+
+    [オ]: [[blank_1]] [カ]: [[blank_2]] [キ]: [[blank_3]] [ク]: [[blank_4]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "1"
+    -
+      type: int
+      value: 1
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "2"
+    -
+      type: int
+      value: 2
+-
+    blank_id: blank_3
+    answers:
+    -
+      value: "-1"
+    -
+      type: int
+      value: -1
+-
+    blank_id: blank_4
+    answers:
+    -
+      type: str
+      value: "3"
+    -
+      type: int
+      value: 3
+

@@ -1,0 +1,20 @@
+page_type: "single_text_question"
+title: q322
+
+content: |
+
+    ### Q3.2(2) 次の積分を計算せよ．(半角で入力)
+
+    $
+\int_{ }^{ }
+\frac{3}{\sqrt{3x+5}}dx=[イ]\times \sqrt{3x+5}+C
+
+
+correcr_answer:
+
+-
+  type: int
+  value: 2
+-
+  type: str
+  value: 2

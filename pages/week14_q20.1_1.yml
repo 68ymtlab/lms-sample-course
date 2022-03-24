@@ -1,0 +1,19 @@
+page_type: "single_text_question"
+title: q911
+
+content: |
+
+    ### Q20.1(1) 次の数式の [ア] に入る適切な整数値を答えよ．(半角で入力)
+
+    $ \iint_D{}{} 
+    (2x + 3y)dxdy, (D：-1\leq x\leq 2, -1\leq y \leq 1)\\
+    =[ア]
+
+correct_answer:
+        
+-
+  type: int
+  value: 6
+-
+  type: str
+  value: 6

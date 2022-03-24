@@ -1,0 +1,30 @@
+page_type: "multiple_text_question"
+title: q112
+content: |
+
+    ##### Q1.1(2) 次の数式の[イ],[ウ]に入る適切な整数値を答えよ(半角で入力)
+    $\Large\sum_{k=1}^{n}(2k^3+3k^2+k) = \frac{1}{2}n(n + [[blank_1]])^2(n + [[blank_2]])$
+            
+answer_column: |
+
+    [イ]:  [[blank_1]] [ウ]: [[blank_2]]
+
+correct_answers:
+-       
+    blank_id: "blank_1"
+    answers:
+    -
+      type: str
+      value: 1
+    -
+      type: int
+      value: 1
+-
+    blank_id: "blank_2"
+    answers:
+    - 
+      type: int
+      value: 2
+    -   
+      type: str
+      value: 2

@@ -1,0 +1,17 @@
+page_type: "single_text_question"
+title: q911
+
+content: |
+
+    ### Q9.1(1) 次の数式の [ア] に入る適切な整数値を答えよ．ただし，Cは積分定数とする．(半角で入力)
+
+    微分方程式：$ \frac{dy}{dx} = 5y \Longrightarrow $ 一般解： $ y= Ce^{[ア]\times x}
+
+correct_answer:
+        
+-
+  type: int
+  value: 5
+-
+  type: str
+  value: 5

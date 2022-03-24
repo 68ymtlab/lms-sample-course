@@ -1,0 +1,41 @@
+page_type: "multiple_text_question"
+title: q1511
+
+content: |
+
+    ### Q15.1(1) 次の数式の[ア]~[ウ]に⼊る適切な整数値を答えよ．ただし，Cは任意定数とする．また，分数は分母が正の既約分数(これ以上約分できない分数)とする.(半角で入力)
+
+    $ y = \frac{x^2}{4} - \frac{1}{2}\ln x  (1 \leq x \leq e ) \Longrightarrow  L = \frac{e^2}{[ア]} + \frac{[イ]}{[ウ]} 
+
+answer_column: |
+
+    [ア]: [[blank_1]] [イ]: [[blank_2]] [ウ]: [[blank_3]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "4"
+    -
+      type: int
+      value: 4
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "1"
+    -
+      type: int
+      value: 1
+-
+    blank_id: blank_3
+    answers:
+    -
+      type: str
+      value: "4"
+    - 
+      type: int
+      value: 4
+

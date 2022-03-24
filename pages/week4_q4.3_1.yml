@@ -1,0 +1,19 @@
+page_type: "single_text_question"
+title: q431
+
+content: |
+
+    ### Q4.3(1) 次の数式の [ア] に入る適切な整数値を答えよ．ただし，Cは積分定数とする．(半角で入力)
+
+    $
+\int_{ }^{ }
+\frac{1}{\sqrt {x^2-3}}dx = \ln |x+\sqrt {x^2+[ア]}|+C
+
+correct_answer:
+        
+-
+  type: int
+  value: -3
+-
+  type: str
+  value: -3

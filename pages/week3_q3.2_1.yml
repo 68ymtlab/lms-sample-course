@@ -1,0 +1,21 @@
+page_type: "single_text_question"
+title: q321
+
+content: |
+
+    ### Q3.2(1) 次の積分を計算せよ．(半角で入力)
+
+    $
+\int_{ }^{ }
+(3x+1)^{2}dx=
+\frac{1}{[ア]}\times (3x+1)^{3}+C
+
+
+correct_answer:
+
+-
+  type: int
+  value: 9
+-
+  type: str
+  value: 9

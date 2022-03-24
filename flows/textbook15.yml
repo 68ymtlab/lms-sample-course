@@ -1,8 +1,8 @@
-id: week1
+id: week15
 title: 
   数理工Ⅱの確認テスト
 welcome_page_content: |
-  このフローでは、数理工Ⅱの第１週の内容を復習します。
+  このフローでは、数理工Ⅱの第15週の内容を復習します。
   - 問題数は3問です. 
   - 採点は提出後に行われます. 
   - このフローには何度でも挑戦することができます. 
@@ -13,8 +13,10 @@ page_groups:
 - 
   pages:
   -
-    {{include (pages/week1_q1.1_1.yml)}}
+    {{include (pages/week15_q21.1_1.yml)}}
   -
-    {{include (pages/week1_q1.1_2.yml)}}
+    {{include (pages/week15_q21.1_2.yml)}}
   -
-    {{include (pages/week1_q1.1_3.yml)}}
+    {{include (pages/week15_q21.1_3.yml)}}
+
+ 

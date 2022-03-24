@@ -1,0 +1,44 @@
+page_type: "multiple_text_question"
+title: q1721
+
+content: |
+
+    ###Q17.2あらい水平面上で壁にばねの一端を固定し，他端に質量 1.0 kg の小球をつなぐ.自然長の位置を原点 O として，ばねの伸びる向きに x 軸をとる.ばねを自然長から水平方向に 0.40 m だけ伸ばして静かに離す.
+    $(1) 以下の [ア]~[ウ] に入る適切な実数値を答えよ(0 の場合は 0 と答え，その他の場合は有効数字 2 桁で答えること).ただし，ばね定数を 40 N/m とする.(半角で入力)\\
+    \\
+    小球が原点にあるときのばねの弾性力によるポテンシャルエネルギー:U(0) = [ア] J \\
+    ばねを 0.4 m だけ伸ばしたときの弾性力によるポテンシャルエネルギー:U (0.40) = [イ] J\\
+    ばねを離した瞬間の小球が持つ運動エネルギー:K(0) = [ウ] J
+
+
+answer_column: |
+
+    [ア]: [[blank_1]] [イ]: [[blank_2]] [ウ]: [[blank_3]]
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "0"
+    -
+      type: float
+      value: 0
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "3.2"
+    - 
+      type: float
+      value: 3.2
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "0"
+    - 
+      type: float
+      value: 0

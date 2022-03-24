@@ -1,0 +1,41 @@
+page_type: "multiple_text_question"
+title: q1512
+
+content: |
+
+    ### Q15.1(2) 次の数式の[エ]~[カ]に⼊る適切な整数値を答えよ．ただし，Cは任意定数とする．また，分数は分母が正の既約分数(これ以上約分できない分数)とする.(半角で入力)
+
+    $ y = \frac{e^{3x}+e^{-3x}}{6} (0 \leq x \leq 2 ) \Longrightarrow  L = \frac{e^{[エ]}-e^{[オ]}}{[カ]}
+
+answer_column: |
+
+    [エ]: [[blank_1]] [オ]: [[blank_2]] [カ]: [[blank_3]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "6"
+    -
+      type: int
+      value: 6
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "-6"
+    -
+      type: int
+      value: -6
+-
+    blank_id: blank_3
+    answers:
+    -
+      type: str
+      value: "6"
+    - 
+      type: int
+      value: 6
+

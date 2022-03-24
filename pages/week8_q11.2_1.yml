@@ -1,0 +1,52 @@
+page_type: "multiple_text_question"
+title: q1121
+
+content: |
+
+    ### Q11.2(1) 次の数式の[ア]~[エ]に⼊る適切な整数値を答えよ(0 や 1 の場合も省略しないこと)．ただし，$c_1,c_2$は任意定数とする．また, [ア]<[イ]とすること.(半角で入力)
+
+    微分方程式：$ \frac{d^2y}{dx^2} -2\frac{dy}{dx} - 3y = 0 \Longrightarrow  一般解：  y= c_1e^{[ア]\times } + c_2e^{[イ]\times x} \\
+    初期条件： y(0) = 8, y'(0) = 12 \Longrightarrow  特殊解：  y= [ウ]\times e^{[ア]\times x} + [エ] \times e^{[イ]\times x}$
+
+
+
+answer_column: |
+
+    [ア]: [[blank_1]] [イ]: [[blank_2]] [ウ]: [[blank_3]] [エ]: [[blank_4]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers: 
+    -
+      type: str
+      value: "-1"
+    -
+      type: int
+      value: -1
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "3"
+    -
+      type: int
+      value: 3
+-
+    blank_id: blank_3
+    answers:
+    -
+      type: str
+      value: "3"
+    -
+      type: int
+      value: 3
+-
+    blank_id: blank_4
+    answers:
+    -
+      value: "5"
+    -
+      type: int
+      value: 5
+

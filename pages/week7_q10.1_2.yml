@@ -1,0 +1,36 @@
+page_type: "multiple_text_question"
+title: q1012
+shuffle: False 
+
+content: |
+
+    ### Q10.1(2) 次の数式の[ウ], [エ]に⼊る適切な整数値を答えよ．ただし，Cは任意定数とする．(半角で入力)
+
+    微分方程式：$ \frac{dy}{dx}sinx + ycosx =  1 \Longrightarrow  一般解： y= \frac{[ウ]+C}{[エ]} \\
+    
+    【選択肢】：1. sinx, 2. cosx, 3. tanx, 4. \ln x, 5. \frac{1}{x^2}, 6. \frac{1}{x}, 7. x, 8. x^2$
+
+
+answer_column: |
+
+    [ウ]: [[blank_1]] [エ]: [[blank_2]] 
+correct_answers:
+-
+    blank_id: blank_1
+    answers:
+    -
+      type: str
+      value: "7"
+    -
+      type: int
+      value: 7
+-
+    blank_id: blank_2
+    answers:
+    -
+      type: str
+      value: "1"
+    - 
+      type: int
+      value: 1
+

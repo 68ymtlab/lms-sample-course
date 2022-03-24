@@ -1,9 +1,9 @@
-id: week1
+id: week5
 title: 
   数理工Ⅱの確認テスト
 welcome_page_content: |
-  このフローでは、数理工Ⅱの第１週の内容を復習します。
-  - 問題数は3問です. 
+  このフローでは、数理工Ⅱの第5週の内容を復習します。
+  - 問題数は5問です. 
   - 採点は提出後に行われます. 
   - このフローには何度でも挑戦することができます. 
 completion_page_content: |
@@ -13,8 +13,12 @@ page_groups:
 - 
   pages:
   -
-    {{include (pages/week1_q1.1_1.yml)}}
+    {{include (pages/week5_q5.1_1.yml)}}
   -
-    {{include (pages/week1_q1.1_2.yml)}}
+    {{include (pages/week5_q5.1_2.yml)}}
   -
-    {{include (pages/week1_q1.1_3.yml)}}
+    {{include (pages/week5_q5.2_1.yml)}}
+  -
+    {{include (pages/week5_q5.2_2.yml)}}
+  -
+    {{include (pages/week5_q5.3_1.yml)}}
